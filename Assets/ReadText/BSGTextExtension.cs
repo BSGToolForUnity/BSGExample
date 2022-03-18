@@ -19,9 +19,9 @@ public class BSGTextExtension : MonoBehaviour
         // 将name 中的内容加载进txt文本中
         TextAsset txt = Resources.Load(filename) as TextAsset;
 
-        string temp = txt.text.Replace(" ", "");  
-
-        string[] strs = temp.Split(',');
+        string temp = txt.text.Replace("\n", "").Trim();
+        string temp2 = temp.Replace("\r", ""); 
+        string[] strs = temp2.Split(',');    
 
         return strs;
 

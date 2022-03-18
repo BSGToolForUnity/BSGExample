@@ -1,0 +1,1 @@
+count_ear:1,count_face:1, count_eyebrow:2,count_eye:2,count_nose:2,count_mouth:2,count_hair:2,count_body:1,count_clothes:2,count_pants1:2,count_arm:1,count_sleeve:2,count_leg:1,count_pants2:2,count_shoes:2
