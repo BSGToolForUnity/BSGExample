@@ -222,15 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filename: readtext
-  color:
-  - A55E53
-  - BF7D60
-  - BF8255
-  - E08A5F
-  - FCC19F
-  - FFD3B2
-  - FFE1C0
-  - FFE2D2
+  color: []
 --- !u!4 &1265089581
 Transform:
   m_ObjectHideFlags: 0

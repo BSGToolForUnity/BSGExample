@@ -35,8 +35,7 @@ public class ReflectionTest : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            ReflectionTest rt = transform.GetComponent<ReflectionTest>();
-
+            ReflectionTest rt = transform.GetComponent<ReflectionTest>();  
             var txt = BSGTextExtension.ReadText("count");
             for (int i = 0; i < txt.Length; i++)
             {
@@ -48,7 +47,7 @@ public class ReflectionTest : MonoBehaviour
                 Debug.Log(num);
                 Debug.Log(str);
 
-                rt.GetType().GetField(str).GetValue(rt);
+              //  rt.GetType().GetField(str).GetValue(rt);
                 rt.GetType().GetField(str).SetValue(rt, num); 
             }
         }

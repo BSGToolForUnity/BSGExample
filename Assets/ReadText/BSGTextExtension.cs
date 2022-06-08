@@ -10,7 +10,7 @@ public class BSGTextExtension : MonoBehaviour
 {
 
     /// <summary>
-    /// 读取数据 数据用,分割 返回一个数组 
+    /// 读取数据(数据用,分割 返回一个数组) 
     /// </summary>
     /// <param filename="filename">文件名</param>  
     /// <returns></returns>
@@ -22,9 +22,7 @@ public class BSGTextExtension : MonoBehaviour
         string temp = txt.text.Replace("\n", "").Trim();
         string temp2 = temp.Replace("\r", ""); 
         string[] strs = temp2.Split(',');    
-
         return strs;
-
         // 以换行符作为分割点，将该文本分割成若干行字符串，并以数组的形式来保存每行字符串的内容
         //string[] str = txt.text.Split('\n'); 
 

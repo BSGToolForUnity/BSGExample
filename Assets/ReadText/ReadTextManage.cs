@@ -12,7 +12,6 @@ public class ReadTextManage : MonoBehaviour
     {
 
         Debug.Log("读取文本中的内容使用,间隔分开"); 
-
         Read();
     }
       
